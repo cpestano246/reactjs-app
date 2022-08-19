@@ -1,0 +1,15 @@
+{
+  "dev" : {
+    "environment" : "development",
+    "weatherstack" : {
+      "baseApi" : "http://localhost:8080"
+    }
+  },
+
+  "prod" : {
+    "environment" : "production",
+    "weatherstack" : {
+      "baseApi" : "http://localhost:9999"
+    }
+  }
+}
