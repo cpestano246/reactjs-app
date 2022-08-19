@@ -14,5 +14,5 @@ To build the app
 
 To run the front end react app in dev mode
 1. Go to react-frontend directory
-2. In the terminal type `npm start`
+2. In the terminal type `npm install` then ``npm run start`
 3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
