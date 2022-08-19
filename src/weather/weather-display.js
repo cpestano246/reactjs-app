@@ -66,19 +66,6 @@ const WeatherDisplay = () => {
                             })
                         }
                     </div>
-                    <div>
-
-                    </div>
-                    <div className="temperature-container">
-                        <h3>{weather.current.temperature}°c</h3>
-                    </div>
-                    <div className="temperature-container">
-                        {
-                            weather.current.weather_descriptions.map( description => {
-                                return <p key={description}>{description}</p>;
-                            })
-                        }
-                    </div>
                 </div>
                 <div className="weather-info">
                     <p>Wind: {weather.current.wind_speed} kmph</p>
@@ -86,6 +73,17 @@ const WeatherDisplay = () => {
                     <p>Pressure: {weather.current.pressure} mb</p>
                 </div>
             </div>
+                <div className="temperature-container">
+                    <h3>{weather.current.temperature}°c</h3>
+                    <div className="temperature-container">
+                        {
+                            weather.current.weather_descriptions.map(description => {
+                                return <p key={description}>{description}</p>;
+                            })
+                        }
+                    </div>
+                </div>
+
             </>
                 }
         </div>

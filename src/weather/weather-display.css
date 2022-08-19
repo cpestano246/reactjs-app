@@ -26,6 +26,10 @@
     border-radius: 40px;
 }
 
+.temperature-footer{
+    text-align: center;
+}
+
 select {
     font-size: calc(10px + 2vmin);
     border-radius: 25px;
